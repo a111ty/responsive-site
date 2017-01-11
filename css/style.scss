@@ -180,11 +180,11 @@ section .container
   #nekos
   {
     .container {
-      @include flex-direction(row);     
+      @include flex-direction(row);     // スキルボックスを横に並べる
       justify-content: space-between;
     }
     .neko-box {
-      margin: 0 10px;                   
+      margin: 0 10px;                   // 左右にマージン
     }
   }
 }
@@ -366,7 +366,7 @@ section .container
             flex: 1;
     margin: 0px 10px;
     padding: 20px;
-    width: 300px;
+    width: 100%;
 }
 
 .neko-box .box1 
